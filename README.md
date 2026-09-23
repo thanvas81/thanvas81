@@ -17,6 +17,8 @@ From requirements and component selection to a working, tested board with firmwa
 
 **Interfaces**: Ethernet (RMII, managed switch) · RS-485 · CAN · 4–20 mA · GSM / GPS · BLE (GATT, Channel Sounding) · QSPI · I²C · SPI · UART · USB
 
+**Simulation & analysis**: MATLAB · Simulink · digital control · power electronics · computational analysis
+
 **Bench**: oscilloscope · logic analyzer · bench supplies · custom test jigs
 
 ---
@@ -28,8 +30,9 @@ From requirements and component selection to a working, tested board with firmwa
 | **GPS/GSM Tracker** | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Rev 3 designed in KiCad, with Gerbers, BOM and pick-and-place for production | KiCad · mixed-signal |
 | **Industrial Controller / Gateway** | Mains-powered industrial controller bridging a 2-port managed Ethernet switch to 24 V field I/O: 2× isolated RS-485, 4–20 mA inputs, opto-isolated inputs, relays, smart high-side switches, PT100 RTDs, on-board AC/DC. 4-layer board, ~490 parts, four isolated ground domains, CI-checked schematics | STM32H743 · KSZ8863 · KiCad 10 · GitLab CI |
 | **Irradiance Sensor** | Irradiance measurement board | Altium |
-| [**BLE Sensor Board**](https://github.com/thanvas81/BLE_sensors) | Custom Bluetooth LE sensor PCB for indoor tracking: schematic, layout, firmware and thesis report | nRF54L15 · Zephyr · KiCad |
-| [**BLE Channel Sounding**](https://github.com/thanvas81/channel_sounding_ras_initiator_original) | Distance measurement between two devices using Bluetooth Channel Sounding ([initiator](https://github.com/thanvas81/channel_sounding_ras_initiator_original) + [reflector](https://github.com/thanvas81/channel_sounding_ras_reflector_original)) | nRF54L15 · Zephyr · C |
+| [**BLE Sensor Board**](https://github.com/thanvas81/BLE_sensors) | Custom Bluetooth LE sensor PCB for indoor tracking with Bluetooth Channel Sounding distance measurement: schematic, layout, firmware and thesis report | nRF54L15 · Zephyr · KiCad |
+
+**➕ More PCB designs** (Raspberry Pi HATs, CAN bus boards, relay & analog-input boards, test fixtures and more) in [my repositories](https://github.com/thanvas81?tab=repositories).
 
 <!-- Hidden until the repo is public:
 ### 🔌 Hardware archive
