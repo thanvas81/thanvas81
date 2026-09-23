@@ -2,7 +2,7 @@
 
 **Embedded Systems & Hardware Engineer**: I design PCBs and write the firmware that runs on them.
 
-I take a board from schematic and layout in KiCad through bring-up, firmware and test fixtures.
+I take a product from the start: requirements and system architecture, circuit analysis and component selection, schematic and PCB layout, through to board bring-up, firmware and test.
 
 <!-- TODO: one line on experience, e.g. "X years building automotive & IoT electronics". -->
 <!-- TODO: location, and "Open to embedded / hardware roles" if you want to show it. -->
