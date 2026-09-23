@@ -1,16 +1,46 @@
-## Hi there 👋
+# Hi, I'm Athanasios Vasiloglou 👋
 
-<!--
-**thanvas81/thanvas81** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Embedded Systems & Hardware Engineer**: I design PCBs and write the firmware that runs on them.
 
-Here are some ideas to get you started:
+I take a board from schematic and layout in KiCad through bring-up, firmware and test fixtures.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!-- TODO: one line on experience, e.g. "X years building automotive & IoT electronics". -->
+<!-- TODO: location, and "Open to embedded / hardware roles" if you want to show it. -->
+
+---
+
+### 🛠️ What I work with
+
+**Hardware**: KiCad · Altium · schematic & multi-layer PCB design · analog front-ends & filters · Gerbers / pick-and-place for production
+
+**Firmware**: C · Zephyr RTOS · nRF Connect SDK · STM32 (HAL, CubeIDE, CMake) · RP2040 · Python
+
+**Interfaces**: Ethernet (RMII, managed switch) · RS-485 · CAN · 4–20 mA · GSM / GPS · BLE (GATT, Channel Sounding) · QSPI · I²C · SPI · UART · USB
+
+**Bench**: oscilloscope · logic analyzer · bench supplies · custom test jigs
+
+---
+
+### 🚀 Featured projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **GPS/GSM Tracker** | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Rev 3 designed in KiCad, with Gerbers, BOM and pick-and-place for production | KiCad · mixed-signal |
+| **Industrial Controller / Gateway** | Mains-powered industrial controller bridging a 2-port managed Ethernet switch to 24 V field I/O: 2× isolated RS-485, 4–20 mA inputs, opto-isolated inputs, relays, smart high-side switches, PT100 RTDs, on-board AC/DC. 4-layer board, ~490 parts, four isolated ground domains, CI-checked schematics | STM32H743 · KSZ8863 · KiCad 10 · GitLab CI |
+| **Irradiance Sensor** | Irradiance measurement board | Altium |
+| [**BLE Sensor Board**](https://github.com/thanvas81/BLE_sensors) | Custom Bluetooth LE sensor PCB for indoor tracking: schematic, layout, firmware and thesis report | nRF54L15 · Zephyr · KiCad |
+| [**BLE Channel Sounding**](https://github.com/thanvas81/channel_sounding_ras_initiator_original) | Distance measurement between two devices using Bluetooth Channel Sounding ([initiator](https://github.com/thanvas81/channel_sounding_ras_initiator_original) + [reflector](https://github.com/thanvas81/channel_sounding_ras_reflector_original)) | nRF54L15 · Zephyr · C |
+
+<!-- Hidden until the repo is public:
+### 🔌 Hardware archive
+
+**[20+ PCB designs →](https://github.com/thanvas81/Hardware)** Raspberry Pi HATs, CAN bus boards, relay & analog-input control boards, RP2040 diagnostic testers, analog filters and more.
+-->
+
+<!-- Hidden until real links are added:
+---
+
+### 📫 Contact
+
+[LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) · [Email](mailto:YOUR-EMAIL) · [CV](LINK-TO-CV)
 -->
