@@ -37,10 +37,8 @@ I take a board from schematic and layout in KiCad through bring-up, firmware and
 **[20+ PCB designs →](https://github.com/thanvas81/Hardware)** Raspberry Pi HATs, CAN bus boards, relay & analog-input control boards, RP2040 diagnostic testers, analog filters and more.
 -->
 
-<!-- Hidden until real links are added:
 ---
 
 ### 📫 Contact
 
-[LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) · [Email](mailto:YOUR-EMAIL) · [CV](LINK-TO-CV)
--->
+[LinkedIn](https://www.linkedin.com/in/athanasios-vasiloglou-424599182/) · [th.vasiloglou81@gmail.com](mailto:th.vasiloglou81@gmail.com)
