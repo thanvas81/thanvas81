@@ -15,7 +15,7 @@ I take a board from schematic and layout in KiCad through bring-up, firmware and
 
 **Firmware**: C · Zephyr RTOS · nRF Connect SDK · STM32 (HAL, CubeIDE, CMake) · RP2040 · Python
 
-**Interfaces**: BLE (GATT, Channel Sounding) · NFC · CAN · I²C · SPI · UART · Ethernet
+**Interfaces**: GSM / GPS · BLE (GATT, Channel Sounding) · CAN · I²C · SPI · UART · Ethernet
 
 **Bench**: oscilloscope · logic analyzer · bench supplies · custom test jigs
 
@@ -25,10 +25,11 @@ I take a board from schematic and layout in KiCad through bring-up, firmware and
 
 | Project | What it is | Stack |
 |---|---|---|
+| **BK4000TG GPS/GSM Tracker** *(coming soon)* | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Taken through several revisions (Rev 2.1 → 2.3 in Altium, Rev 3 ported to KiCad) with Gerbers, BOM and pick-and-place | Altium · KiCad · mixed-signal |
+| **Controller Gateway** *(coming soon)* | <!-- TODO: one-line description --> Current project | <!-- TODO --> |
+| **Irradiance Sensor** *(coming soon)* | <!-- TODO: one-line description --> Solar irradiance measurement board | Altium |
 | [**BLE Sensor Board**](https://github.com/thanvas81/BLE_sensors) | Custom Bluetooth LE sensor PCB for indoor tracking: schematic, layout, firmware and thesis report | nRF54L15 · Zephyr · KiCad |
 | [**BLE Channel Sounding**](https://github.com/thanvas81/channel_sounding_ras_initiator_original) | Distance measurement between two devices using Bluetooth Channel Sounding ([initiator](https://github.com/thanvas81/channel_sounding_ras_initiator_original) + [reflector](https://github.com/thanvas81/channel_sounding_ras_reflector_original)) | nRF54L15 · Zephyr · C |
-| **STM32 NFC Reader** *(coming soon)* | NFC tag detection on STM32G0 / STM32C5 with ST NFC front-ends | STM32 · C · CMake |
-| **stm-tool** *(coming soon)* | Command-line tool that builds and flashes STM32 projects in one step | Python · CMake |
 
 ### 🔌 Hardware archive
 
