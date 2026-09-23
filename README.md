@@ -25,9 +25,9 @@ I take a board from schematic and layout in KiCad through bring-up, firmware and
 
 | Project | What it is | Stack |
 |---|---|---|
-| **BK4000TG GPS/GSM Tracker** *(coming soon)* | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Taken through several revisions (Rev 2.1 → 2.3 in Altium, Rev 3 ported to KiCad) with Gerbers, BOM and pick-and-place | Altium · KiCad · mixed-signal |
-| **Industrial Controller / Gateway** *(in progress)* | Mains-powered industrial controller bridging a 2-port managed Ethernet switch to 24 V field I/O: 2× isolated RS-485, 4–20 mA inputs, opto-isolated inputs, relays, smart high-side switches, PT100 RTDs, on-board AC/DC. 4-layer board, ~490 parts, four isolated ground domains, CI-checked schematics | STM32H743 · KSZ8863 · KiCad 10 · GitLab CI |
-| **Irradiance Sensor** *(coming soon)* | <!-- TODO: one-line description --> Solar irradiance measurement board | Altium |
+| **BK4000TG GPS/GSM Tracker** | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Rev 3 designed in KiCad, with Gerbers, BOM and pick-and-place for production | KiCad · mixed-signal |
+| **Industrial Controller / Gateway** | Mains-powered industrial controller bridging a 2-port managed Ethernet switch to 24 V field I/O: 2× isolated RS-485, 4–20 mA inputs, opto-isolated inputs, relays, smart high-side switches, PT100 RTDs, on-board AC/DC. 4-layer board, ~490 parts, four isolated ground domains, CI-checked schematics | STM32H743 · KSZ8863 · KiCad 10 · GitLab CI |
+| **Irradiance Sensor** | <!-- TODO: one-line description --> Solar irradiance measurement board | Altium |
 | [**BLE Sensor Board**](https://github.com/thanvas81/BLE_sensors) | Custom Bluetooth LE sensor PCB for indoor tracking: schematic, layout, firmware and thesis report | nRF54L15 · Zephyr · KiCad |
 | [**BLE Channel Sounding**](https://github.com/thanvas81/channel_sounding_ras_initiator_original) | Distance measurement between two devices using Bluetooth Channel Sounding ([initiator](https://github.com/thanvas81/channel_sounding_ras_initiator_original) + [reflector](https://github.com/thanvas81/channel_sounding_ras_reflector_original)) | nRF54L15 · Zephyr · C |
 
