@@ -47,4 +47,4 @@ From requirements and component selection to a working, tested board with firmwa
 
 ### 📫 Contact
 
-[LinkedIn](https://www.linkedin.com/in/athanasios-vasiloglou-424599182/) · [th.vasiloglou81@gmail.com](mailto:th.vasiloglou81@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/athanasios-vasiloglou-424599182/) · [th.vasiloglou81@gmail.com](mailto:th.vasiloglou81@gmail.com) · [📄 CV](https://drive.google.com/file/d/1LarhUOBzZnRnZTkC2T78LGOAU-Br_Hyu/view)
