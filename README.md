@@ -29,7 +29,7 @@ From requirements and component selection to a working, tested board with firmwa
 
 | Project | What it is | Stack |
 |---|---|---|
-| **GPS/GSM Tracker** | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Rev 3 designed in KiCad, with Gerbers, BOM and pick-and-place for production | KiCad · mixed-signal |
+| [**GPS/GSM Tracker**](https://github.com/thanvas81/hardware-portfolio/tree/main/gps-gsm-tracker) | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Rev 3 designed in KiCad, with Gerbers, BOM and pick-and-place for production | KiCad · mixed-signal |
 | **OliveCrab Industrial Controller / Gateway** | Mains-powered industrial controller bridging a 2-port managed Ethernet switch to 24 V field I/O: 2× isolated RS-485, 4–20 mA inputs, opto-isolated inputs, relays, smart high-side switches, PT100 RTDs, on-board AC/DC. 4-layer board, ~490 parts, four isolated ground domains, CI-checked schematics | STM32H743 · KSZ8863 · KiCad 10 · GitLab CI |
 | [**Handheld Biophotonic Controller**](https://github.com/thanvas81/hardware-portfolio/tree/main/handheld-irradiance-system) | Compact high-current, high-irradiance optical controller: USB-C Power Delivery negotiation, multi-channel constant-current buck LED drivers, active thermal regulation with non-contact IR temperature sensing | Altium · USB-C PD · power electronics |
 | [**BLE Sensor Board**](https://github.com/thanvas81/hardware-portfolio/tree/main/ble-channel-sounding-board) | Custom Bluetooth LE sensor PCB for indoor tracking with Bluetooth Channel Sounding distance measurement: schematic, layout, firmware and thesis report | nRF54L15 · Zephyr · KiCad |
