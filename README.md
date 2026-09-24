@@ -6,16 +6,17 @@ From requirements and component selection to a working, tested board with firmwa
 
 🏆 Hardware and firmware developer of **SafeRoadMap**, winner of the **Grand Award** and **Gold Award** at the **BITE Awards 2026**.
 
-<!-- TODO: one line on experience, e.g. "X years building automotive & IoT electronics". -->
-<!-- TODO: location, and "Open to embedded / hardware roles" if you want to show it. -->
+🎓 M.S. in Electrical & Computer Engineering at Purdue University Northwest (expected 2028) · Diploma in ECE, National Technical University of Athens
+
+📍 Hammond, IN, USA · Open to relocation
 
 ---
 
 ### 🛠️ What I work with
 
-**Hardware**: KiCad · Altium · schematic & multi-layer PCB design · analog front-ends & filters · Gerbers / pick-and-place for production
+**Hardware**: KiCad · Altium · LTspice · Fusion 360 · schematic & multi-layer PCB design · analog front-ends & filters · Gerbers / pick-and-place for production
 
-**Firmware**: C · Zephyr RTOS · nRF Connect SDK · STM32 (HAL, CubeIDE, CMake) · RP2040 · Python
+**Firmware**: C / C++ · Zephyr RTOS · FreeRTOS · nRF Connect SDK · STM32 (HAL, CubeIDE, CMake) · RP2040 · Python
 
 **Interfaces**: Ethernet (RMII, managed switch) · RS-485 · CAN · 4–20 mA · GSM / GPS · BLE (GATT, Channel Sounding) · QSPI · I²C · SPI · UART · USB
 
@@ -29,13 +30,13 @@ From requirements and component selection to a working, tested board with firmwa
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**GPS/GSM Tracker**](https://github.com/thanvas81/hardware-portfolio/tree/main/gps-gsm-tracker) | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Rev 3 designed in KiCad, with Gerbers, BOM and pick-and-place for production | KiCad · mixed-signal |
 | [**OliveCrab Industrial Controller / Gateway**](https://github.com/thanvas81/hardware-portfolio/tree/main/industrial-controller-gateway) | Mains-powered industrial controller bridging a 2-port managed Ethernet switch to 24 V field I/O: 2× isolated RS-485, 4–20 mA inputs, opto-isolated inputs, relays, smart high-side switches, PT100 RTDs, on-board AC/DC. 4-layer board, ~490 parts, four isolated ground domains | STM32H743 · KSZ8863 · KiCad 10 |
 | [**Linux SoM Carrier Board**](https://github.com/thanvas81/hardware-portfolio/tree/main/linux-som-carrier-board) | Industrial IoT carrier for an NXP i.MX 91 Linux SoM: Quectel EC25 LTE with dual SIM, Ethernet, RS-485, CAN, USB-C, RTC, tamper input, Li-ion backup with power-path. 4-layer, 167 × 100 mm, 274 parts. Full design and Rev 1 bring-up | i.MX 91 · Embedded Linux · LTE · KiCad |
 | [**Handheld Biophotonic Controller**](https://github.com/thanvas81/hardware-portfolio/tree/main/handheld-irradiance-system) | Compact high-current, high-irradiance optical controller: USB-C Power Delivery negotiation, multi-channel constant-current buck LED drivers, active thermal regulation with non-contact IR temperature sensing | Altium · USB-C PD · power electronics |
+| [**GPS/GSM Tracker**](https://github.com/thanvas81/hardware-portfolio/tree/main/gps-gsm-tracker) | Battery-powered GPS/GSM tracker: MCU, GSM modem, GPS, 3-axis accelerometer, Li-ion charger with power-path, NOR flash. Rev 3 designed in KiCad, with Gerbers, BOM and pick-and-place for production | STM32U5 · LTE Cat-1 · GNSS · KiCad |
 | [**BLE Sensor Board**](https://github.com/thanvas81/hardware-portfolio/tree/main/ble-channel-sounding-board) | Custom Bluetooth LE sensor PCB for indoor tracking with Bluetooth Channel Sounding distance measurement: schematic, layout, firmware and thesis report | nRF54L15 · Zephyr · KiCad |
 
-**➕ More PCB designs** (Raspberry Pi HATs, CAN bus boards, relay & analog-input boards, test fixtures and more) in my **[hardware portfolio →](https://github.com/thanvas81/hardware-portfolio)**
+**➕ More PCB designs** (vehicle test equipment, a compact LTE-M / NB-IoT tracker, CAN and relay / analog expansion boards, an RP2040 diagnostic tool) in my **[hardware portfolio →](https://github.com/thanvas81/hardware-portfolio)**
 
 ---
 
